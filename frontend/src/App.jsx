@@ -7,7 +7,9 @@ function App() {
 
   const handlePredict = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/predict", {
+      // const res = await axios.post("http://localhost:5000/predict", {
+      // Replace localhost with full Render backend URL
+      const res = await axios.post("https://ml-price-predictor.onrender.com/predict", {
         area: parseFloat(area),
       });
       setPrice(res.data.predicted_price);
