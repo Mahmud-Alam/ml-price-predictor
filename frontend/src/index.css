@@ -1,0 +1,21 @@
+main{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  padding: 2rem;
+  font-family: sans-serif;
+}
+.input-field{
+  margin-left: 40px;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+.btn{
+  font-weight: 500;
+  padding: 7px 8px;
+  border-radius: 5px;
+}
+.result-text{
+  margin: 2rem 0 0 40px;
+}
